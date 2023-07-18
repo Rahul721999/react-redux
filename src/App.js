@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-function App() {
+import Counter from './features/counter/Counter.js';
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,8 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Counter/>
     </div>
   );
 }
-
-export default App;
